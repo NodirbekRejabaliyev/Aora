@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         primary: '#ff6100',  // Primary color
         secondary: '#fb9658',
-        bgcolor:'#4b4e54'  // Add your secondary color hex code
+        bgcolor:'#4b4e54', 
+        textmain:"#073b4c" // Add your secondary color hex code
       },
       fontFamily: {
         'poppins-thin': ['Poppins-Thin', 'sans-serif'],
