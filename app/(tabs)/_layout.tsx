@@ -111,7 +111,7 @@ const Profile = ({name, focused }: TabIconProps) => {
             { value: '-3deg', duration: time }, // Slight left rotation
             { value: '3deg', duration: time },  // Slight right rotation
            
-            { value: '0deg', duration: time },  // Reset rotation
+            { value: '0deg', duration: time },  
           ] : '0deg',
           
           scale: focused ? 1.2 : 1,  // Scale the image when focused
@@ -178,7 +178,7 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           title: 'Home',
           tabBarIcon: ({color,focused}) => (

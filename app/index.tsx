@@ -49,7 +49,7 @@ const index = () => {
 
           <CustomButton
             title="Sign in with email"
-            handlePress={() => router.push('../(auth)/signIn')}
+            handlePress={() => router.push('/signUp')}
             containerStyles="w-[40vh] z-1 mb-[50vh] -translate-y-20"
           />
         </ScrollView>
